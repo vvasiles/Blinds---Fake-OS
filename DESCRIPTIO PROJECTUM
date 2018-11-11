@@ -1,0 +1,38 @@
+                                              ->                                          <- 
+                                               ->                                        <-
+                                                ->                                      <-
+                                                 ->                                    <-
+                                                  ->                                  <-
+                                                   ->                                <-
+                                                   Welcome to my Final 15-112 Project !
+                                                   <-                                ->
+                                                  <-                                  ->
+                                                 <-                                    ->
+                                                <-                                      ->
+                                               <-                                        ->
+                                              <-                                          ->
+
+Description:
+
+# MISTERY CRIME SCENE # 
+
+  The program consists of a multiple-level game that requires the perspicacity of the player to locate and collect various
+required items as clues from a crowded crime scene that lead to the murderer and the "weapon" used. Each level - crime scene
+represents a photo of a room full of hidden/ shaded objects. The player searches the image and tries to find the objects 
+comprised in a checklist for each level. The game will contain more than one storyline with multiple difficulty options, based on
+a time limit for each level and how easy is the element to retrieve. A hint option will also be implemented.
+
+  Depending on the selected difficulty level, an online leaderboard will be implemented through the CMU server, port 15112, viewing
+the best total times achieved per each level and also per crime solved. To be qualified for the leaderboard, the number of hints will
+limited.
+
+Checkpoint 1:
+
+  Everything I mentioned in the first paragraph, besides the Hint feature. 
+
+Libraries:
+
+-> TKinter for the GUI of the game
+-> Sockets for the connection to server, generating the leaderboard
+
+I hope you will enjoy my program! Thank you!
