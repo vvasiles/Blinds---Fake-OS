@@ -14,25 +14,45 @@
 
 Description:
 
-# MISTERY CRIME SCENE # 
+# Blinds - Fake OS aka OS Simulator aka OS Emulator aka RIP Steve Jobs # 
 
-  The program consists of a multiple-level game that requires the perspicacity of the player to locate and collect various
-required items as clues from a crowded crime scene that lead to the murderer and the "weapon" used. Each level - crime scene
-represents a photo of a room full of hidden/ shaded objects. The player searches the image and tries to find the objects 
-comprised in a checklist for each level. The game will contain more than one storyline with multiple difficulty options, based on
-a time limit for each level and how easy is the element to retrieve. A hint option will also be implemented.
+For my final project in 15-112, I will be elaborating an Operating System Simulator, with features like:
 
-  Depending on the selected difficulty level, an online leaderboard will be implemented through the CMU server, port 15112, viewing
-the best total times achieved per each level and also per crime solved. To be qualified for the leaderboard, the number of hints will
-limited.
+-Text Editor
+-Calculator
+-Paint-like app
+-An old-school game, such as Pong
 
+The main interface will handle files like text / canvas in the UI, that can be opened from and saved in there. 
+
+In the task bar, there will be an active clock, the minimized instances of the current processes and a button for the start window.
+
+The start windowe contains the 4 widgets for the apps, a shut down button which exits the entire window, and a log off button!
+
+All the apps will have implemented a special frame that permits drag and drop only within the main window boundaries, which also handles
+an exit button and a minimize button, making the process appear in the taskbar.
+
+The text editor will create, save, and open files along with copy/cut/paste options. More features like font, size to be added in Checkpoint 2
+
+The canvas app will create, save and open files, handle a few colors, different thicknesses of brushes, eraser, a few shapes. 
+
+The game will handle simple but precise physics.
+  
 Checkpoint 1:
 
-  Everything I mentioned in the first paragraph, besides the Hint feature. 
+  Main UI, Start Menu, Calculator, Notepad.
+ 
+Checkpoint 2;
+
+  Canvas, Pong, importing files in the main UI, minimizing, implemenmting the special frame
+  Friendlier, better integrated UI
 
 Libraries:
 
 -> TKinter for the GUI of the game
--> Sockets for the connection to server, generating the leaderboard
+-> datetime and threading  for the clock in the taskbar
+-> os for handling files
+-> tkFont - for fonts and styling 
+-> tkMessageBox for different notices and confirmations
 
 I hope you will enjoy my program! Thank you!
